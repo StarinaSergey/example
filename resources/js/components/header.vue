@@ -29,6 +29,10 @@ export default {
                 {
                     title: "Создать пост",
                     href: "/create"
+                },
+                {
+                    title: "Login",
+                    href: "/login"
                 }
             ]
         }

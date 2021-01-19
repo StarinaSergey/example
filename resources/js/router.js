@@ -5,6 +5,7 @@ Vue.use(vueRouter);
 
 import Index from "./views/Index";
 import Blog from "./views/Blog";
+import Login from "./views/Login"
 // import Post from "./views/Post";
 // import CreatePost from "./views/CreatePost";
 
@@ -16,6 +17,10 @@ const routes = [
     {
         path: "/blog",
         component: Blog
+    },
+    {
+        path: "/login",
+        component: Login
     },
     // {
     //     path: "/post/:id",
